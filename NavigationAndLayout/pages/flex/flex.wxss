@@ -1,0 +1,36 @@
+/* pages/flex/flex.wxss */
+.fbox1{
+  border: 2px dashed purple;
+  background-color: rgb(60, 255, 0);
+  flex-grow:1;
+  text-align: center;
+  }
+  .fbox2{
+  border: 3px solid blue;
+  background-color: red;
+  flex-grow:2;
+  }
+  .fbox2{
+  border: 3px solid blue;
+  background-color: red;
+  flex-grow:2;
+  }
+  .fbox3{border: 3px solid rgb(2, 24, 9);
+  background-color: rgb(27, 54, 206);
+  flex-grow:3;
+  }
+  .flexbox{
+  display:flex;
+  text-align: center;
+  /* 用于设置文本的水平对齐方式。当设置为 center 时，文本将在其父元素内居中对齐。 */
+  height:100px;
+  margin:30px; /* 外边距 */
+  }
+  .flexbox0{
+  display:flex;
+  text-align: center;
+  height:100px;
+  margin:30px;
+  flex-direction: column;/* 设置其中的子元素将以垂直方向排列。 */
+  
+  }

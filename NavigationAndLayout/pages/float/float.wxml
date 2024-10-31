@@ -1,0 +1,18 @@
+<!--pages/float/float.wxml-->
+float布局
+<view class = 'bg'>
+  <view class = 'box1'>红色</view>
+  <view class = 'box2'>黄色</view>
+  <view class = 'box23'>粉色</view>  
+  <view class = 'box3'>绿色</view>
+  <view class = 'box4'>蓝色</view>
+</view>
+
+<view class = 'bg1'>
+  <view class = 'box5'>head蓝</view>
+  <view class = 'box6'>left红</view>
+  <view class = 'box7'>main黄</view>
+  <view class = 'box78'>main粉</view>
+  <view class = 'box8'>right绿</view>
+  <view class = 'box9'>foot蓝</view>
+</view>

@@ -1,0 +1,41 @@
+<!--index.wxml-->
+
+<navigator url="../flex/flex">
+<view class = 'rowLayout'>
+  <icon type = 'success' class = "myLeft"></icon>
+  <view class = "myCenter">Flex布局</view>
+  <image src = "https://z3.ax1x.com/2021/03/21/64WWgH.png"></image>
+</view>
+</navigator>
+
+<navigator url="../float/float">
+  <view class = 'rowLayout'>
+  <icon type = 'success' class = "myLeft"></icon>
+  <view class = "myCenter">Float布局</view>
+  <image src = "https://z3.ax1x.com/2021/03/21/64WWgH.png"></image>
+</view>
+</navigator>
+
+<!-- 下拉菜单 -->
+<view class="dropdown">
+  <button class="dropbtn">下拉菜单，点击选择布局</button>
+  <view class="dropdown-content">
+
+<navigator url="../flex/flex">
+  <view class = 'rowLayout'>
+  <icon type = 'success' class = "myLeft"></icon>
+  <view class = "myCenter">Flex布局</view>
+  <image src = "https://z3.ax1x.com/2021/03/21/64WWgH.png"></image>
+</view>
+</navigator>
+  
+
+    <navigator url="../float/float">
+  <view class = 'rowLayout'>
+  <icon type = 'success' class = "myLeft"></icon>
+  <view class = "myCenter">Float布局</view>
+  <image src = "https://z3.ax1x.com/2021/03/21/64WWgH.png"></image>
+</view>
+</navigator>
+  </view>
+</view>

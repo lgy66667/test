@@ -1,0 +1,91 @@
+/* pages/float/float.wxss */
+.bg {
+  width:225px;
+  height: 150px;
+  margin: 40px auto;
+  /* auto：设置元素的左右外边距为自动。这意味着浏览器会自动计算左右外边距的大小，以使元素在水平方向上居中对齐。 */
+}
+.bg1 {
+  width: 150px;
+  height: 150px;
+  margin: 100px auto;
+}
+.box1 {
+  width: 75px;
+  height: 75px;
+  margin: 0px auto;
+  background-color: red;
+}
+.box2 {
+  width: 75px;
+  height: 75px;
+  float: left;
+  background-color: yellow;
+}
+.box23 {
+  width: 75px;
+  height: 75px;
+  float: left;
+  /* 浮动 左边第二个 */
+  background-color: pink;
+}
+
+.box3 {
+  width: 75px;
+  height: 75px;
+  float: right;
+  background-color: green;
+}
+
+.box4 {
+  width: 75px;
+  height: 75px;
+  margin: 0px auto;
+  clear: both;
+  background-color: blue;
+}
+
+.box5 {
+  width: 150px;
+  height: 30px;
+  margin: 0px auto;
+  background-color: blue;
+}
+
+.box6 {
+  width: 30px;
+  height: 90px;
+  margin: 0px auto;
+  float: left;
+  background-color: red;
+}
+
+.box7 {
+  width: 45px;
+  height: 90px;
+  margin: 0px auto;
+  float: left;
+  background-color: yellow;
+}
+.box78 {
+  width: 45px;
+  height: 90px;
+  margin: 0px auto;
+  float: left;
+  background-color: pink;
+}
+.box8 {
+  width: 30px;
+  height: 90px;
+  margin: 0px auto;
+  float: right;
+  background-color: green;
+}
+.box9 {
+  width: 150px;
+  height: 30px;
+  margin: 0px auto;
+  clear: both;
+  background-color: blue;
+}
+

@@ -1,0 +1,27 @@
+<!--pages/flex/flex.wxml-->
+<view class = 'fbox1'>flex布局</view>
+<view class = 'flexbox'>
+<view class = 'fbox1'>绿色</view>
+<view class = 'fbox2'>红色</view>
+<view class = 'fbox3'>蓝色</view>
+</view>
+<view class = 'flexbox'>
+<view style = 'display:flex;background-color: red;width:30%;'>红色</view>
+<view style = 'display:flex;background-color: yellow;width:30%;'>黄色</view>
+<view style = 'display:flex;width:70%;flex-direction: column;'>
+<!-- colum垂直方向 -->
+<view style = 'display:flex;background-color: green;height:70%'>绿色</view>
+<view style = 'display:flex;background-color: blue;height:50%'>蓝色</view>
+</view>
+</view>
+
+<view class = 'flexbox0'>
+<view style = 'display:flex;background-color: red;height:30%;'>红色</view>
+<view style = 'display:flex;background-color: yellow;height:30%;'>黄色</view>
+<view style = 'display:flex;flex-grow:1;flex-direction: row;'>
+<!-- row水平方向 -->
+<!-- flex-grow: 1; 是CSS中的一个属性，用于设置弹性盒子容器中的子元素的增长因子。当设置为 1 时，表示子元素将平均分配剩余的空间。 -->
+<view style = 'display:flex;background-color: green;flex-grow:1;'>绿色</view>
+<view style = 'display:flex;background-color: blue;flex-grow:1;'>蓝色</view>
+</view>
+</view>
